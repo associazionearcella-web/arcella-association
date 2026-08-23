@@ -28,11 +28,22 @@ footer{background:#0a1811;color:#829088;padding:26px 5vw;display:flex;justify-co
 @media(max-width:800px){.navlinks{display:none}.navbtn{padding:10px 14px}.hero{min-height:720px}.hero-content{left:7vw;right:7vw}.hero h1{font-size:80px}.hero-tag{display:none}.section{padding:80px 7vw}.section-head{display:block}.intro-copy{margin-top:30px}.progress{padding:0 7vw}.progress-grid{grid-template-columns:1fr}.step{border-left:0;border-top:1px solid var(--line);padding:35px 0}.step:first-child{border-top:0}.features{grid-template-columns:1fr 1fr}.event-box{grid-template-columns:100px 1fr;gap:15px}.event-status{grid-column:2;justify-self:start}.cta{padding:80px 7vw}footer{gap:10px;flex-direction:column}}
 @media(max-width:500px){.hero h1{font-size:68px}.hero-sub{font-size:15px}.actions{flex-direction:column;align-items:stretch}.btn{justify-content:center}.features{grid-template-columns:1fr}.feature{min-height:230px}.feature h3{margin-top:70px}.event-title{font-size:30px}}
 </style>
+
+<style>
+.chi-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:5vw;align-items:start}
+.chi-copy{font-size:18px;line-height:1.75;color:#536058}.chi-copy p{margin:0 0 24px}.chi-copy strong{color:#10251b}
+.chi-card{background:#10251b;color:#fff;padding:38px;min-height:320px;display:flex;flex-direction:column;justify-content:space-between}
+.chi-label{font-family:"Barlow Condensed";font-size:13px;letter-spacing:.15em;color:#d8ff58}
+.chi-slogan{font-family:"Barlow Condensed";font-size:58px;line-height:.86;text-transform:uppercase}.chi-slogan span{color:#d8ff58}
+.chi-note{font-size:12px;color:#9ca9a1;line-height:1.5}
+.chi-update{margin-top:70px;border-top:2px solid #10251b;padding-top:22px;font-size:13px;line-height:1.6;color:#657168}.chi-update strong{color:#10251b}
+@media(max-width:800px){.chi-grid{grid-template-columns:1fr}.chi-slogan{font-size:52px}}
+</style>
 </head>
 <body>
 <header class="nav">
   <a class="brand" href="#top"><span class="brand-mark">A</span><span class="brand-text">ARCELLA<small>ASSOCIATION</small></span></a>
-  <nav class="navlinks"><a href="#progetto">Progetto</a><a href="#futuro">Cosa arriva</a><a href="#eventi">Eventi</a><a href="#contatti">Contatti</a></nav>
+  <nav class="navlinks"><a href="#chi-siamo">Chi siamo</a><a href="#progetto">Progetto</a><a href="#futuro">Cosa arriva</a><a href="#eventi">Eventi</a><a href="#contatti">Contatti</a></nav>
   <a class="navbtn" href="#contatti">Resta aggiornato ↗</a>
 </header>
 
@@ -50,6 +61,27 @@ footer{background:#0a1811;color:#829088;padding:26px 5vw;display:flex;justify-co
 </section>
 
 <div class="ticker"><div class="ticker-track">ARCELLA ASSOCIATION <i>✦</i> SPORT <i>✦</i> COMUNITÀ <i>✦</i> FUTURO <i>✦</i> ARCELLA ASSOCIATION <i>✦</i> SPORT <i>✦</i> COMUNITÀ <i>✦</i> FUTURO <i>✦</i></div></div>
+
+
+<section class="section" id="chi-siamo">
+  <div class="section-head">
+    <div><div class="label">01 / CHI SIAMO</div><h2 class="big-title">Giovani.<br>Comunità.<br>Arcella.</h2></div>
+    <p class="intro-copy">Siamo un gruppo di giovani ragazzi di Arcella, Montefredane, uniti dalla voglia di fare qualcosa di concreto per il nostro paese e per la nostra comunità.</p>
+  </div>
+  <div class="chi-grid">
+    <div class="chi-copy">
+      <p>Il nostro primo obiettivo è <strong>riqualificare il nostro campetto da calcio</strong>, oggi in stato di degrado. Stiamo lavorando duramente per riportarlo alle condizioni necessarie per tornare a giocare e vivere questo spazio nel modo che merita.</p>
+      <p>Ma non vogliamo fermarci al campetto. Il nostro progetto è dare vita ad <strong>Arcella Association</strong>, un'associazione capace di riunire i giovani e tutta la comunità attraverso eventi, tornei, serate e tante occasioni per stare insieme.</p>
+      <p>Sappiamo che il percorso è impegnativo, ma crediamo nel nostro progetto: vogliamo creare qualcosa che possa fare del bene non solo a noi, ma a tutta la comunità.</p>
+    </div>
+    <div class="chi-card">
+      <div class="chi-label">IL NOSTRO OBIETTIVO</div>
+      <div class="chi-slogan">Riqualificare.<br>Unire.<br><span>Vivere Arcella.</span></div>
+      <div class="chi-note">Un campetto può essere molto più di un semplice campo da calcio: può diventare un punto d'incontro, un luogo di sport, amicizia e comunità.</div>
+    </div>
+  </div>
+  <div class="chi-update"><strong>RESTATE AGGIORNATI.</strong> Nelle prossime settimane condivideremo tutte le novità sulla ristrutturazione del campo e sui prossimi passi di Arcella Association.</div>
+</section>
 
 <section class="section" id="progetto">
   <div class="section-head"><div><div class="label">01 / IL PROGETTO</div><h2 class="big-title">Una nuova<br>partenza.</h2></div><p class="intro-copy">Questo è solo l'inizio. Stiamo ristrutturando il campetto per trasformarlo in uno spazio più curato, accogliente e pronto a vivere lo sport ogni giorno.</p></div>
